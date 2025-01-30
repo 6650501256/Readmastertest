@@ -6063,7 +6063,7 @@ const problem2 = {
 
           image5: {
             name: "image5",
-            url: "images/467470411_2318354041853443_1420735777515935467_n.png",
+            url: "467470411_2318354041853443_1420735777515935467_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -6330,7 +6330,7 @@ const problem3 = {
           app: this.$root,
           image5: {
             name: "image5",
-            url: "images/467470411_2318354041853443_1420735777515935467_n.png",
+            url: "467470411_2318354041853443_1420735777515935467_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -6626,7 +6626,7 @@ const problem4 = {
 
           image5: {
             name: "image5",
-            url: "images/467470411_2318354041853443_1420735777515935467_n.png",
+            url: "467470411_2318354041853443_1420735777515935467_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -6906,7 +6906,7 @@ const problem5 = {
 
           image5: {
             name: "image5",
-            url: "images/467470411_2318354041853443_1420735777515935467_n.png",
+            url: "467470411_2318354041853443_1420735777515935467_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
