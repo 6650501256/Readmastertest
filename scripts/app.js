@@ -6658,7 +6658,7 @@ app.showView('taskQ4');
           },
           image4: {
             name: "image4",
-            url: "images/462562307_603648668915134_2107280002560587655_n.jpg",
+            url: "462562307_603648668915134_2107280002560587655_n.jpg",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
