@@ -9275,7 +9275,7 @@ const compre2 = {
           app: this.$root,
           image1: {
             name: "image1",
-            url: "images/467473553_1986187851858463_4328728631286200179_n.jpg",
+            url: "467473553_1986187851858463_4328728631286200179_n.jpg",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
