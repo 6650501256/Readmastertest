@@ -10407,7 +10407,7 @@ app.showDialog('dialogscafmeta');
 
           image6: {
             name: "image6",
-            url: "images/467471249_2395343744134083_5413752619905073150_n.png",
+            url: "467471249_2395343744134083_5413752619905073150_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -10674,7 +10674,7 @@ app.showDialog('dialogscafstretegic');
 
           image6: {
             name: "image6",
-            url: "images/467471249_2395343744134083_5413752619905073150_n.png",
+            url: "467471249_2395343744134083_5413752619905073150_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -11118,7 +11118,7 @@ window.open('https://www.canva.com/design/DAGUa6nnlnM/9qB3fC4hiRINZkYd9Lp2KA/vie
 
           image6: {
             name: "image6",
-            url: "images/467471249_2395343744134083_5413752619905073150_n.png",
+            url: "467471249_2395343744134083_5413752619905073150_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -11563,7 +11563,7 @@ window.open('https://www.canva.com/design/DAGUa6nnlnM/9qB3fC4hiRINZkYd9Lp2KA/vie
 
           image6: {
             name: "image6",
-            url: "images/467471249_2395343744134083_5413752619905073150_n.png",
+            url: "467471249_2395343744134083_5413752619905073150_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -12008,7 +12008,7 @@ window.open('https://www.canva.com/design/DAGUa6nnlnM/9qB3fC4hiRINZkYd9Lp2KA/vie
 
           image6: {
             name: "image6",
-            url: "images/467471249_2395343744134083_5413752619905073150_n.png",
+            url: "467471249_2395343744134083_5413752619905073150_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
