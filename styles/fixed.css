@@ -1,0 +1,705 @@
+﻿
+/*!
+This file is part of DecSoft App Builder.
+Visit our website for license information.
+Copyright ©2025 DecSoft. All rights reserved.
+Visit our website at: https://www.decsoftutils.com/
+
+*/
+
+html, body, .app-view { width: 320px; height: 480px; }
+.app-dialog .modal-dialog { margin: auto; width: 320px; height: 480px; }
+.app-dialog .modal-dialog .modal-content { width: 320px; height: 480px; }
+
+#start #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#start #image3 { position: absolute; top: 360px; left: 200px; width: 104px; height: 56px; }
+
+#start #image2 { position: absolute; top: 88px; left: 16px; width: 288px; height: 120px; }
+#start #image4 { position: absolute; top: 416px; left: 192px; width: 112px; height: 48px; }
+
+#home #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 488px; }
+
+#home #image4 { position: absolute; top: 168px; left: 40px; width: 232px; height: 64px; }
+
+#home #image9 { position: absolute; top: 232px; left: 40px; width: 232px; height: 64px; }
+
+#home #image10 { position: absolute; top: 288px; left: 40px; width: 232px; height: 64px; }
+
+#home #image11 { position: absolute; top: 344px; left: 40px; width: 232px; height: 64px; }
+
+#home #image12 { position: absolute; top: 400px; left: 40px; width: 232px; height: 64px; }
+
+#home #image2 { position: absolute; top: 8px; left: 24px; width: 272px; height: 136px; }
+#home #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#collaboration #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#collaboration #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#collaboration #image2 { position: absolute; top: 264px; left: 48px; width: 216px; height: 72px; }
+
+#collaboration #image4 { position: absolute; top: 328px; left: 48px; width: 216px; height: 88px; }
+
+#collaboration #image5 { position: absolute; top: 392px; left: 48px; width: 216px; height: 80px; }
+
+#collaboration #image6 { position: absolute; top: 16px; left: 112px; width: 96px; height: 8px; }
+#collaboration #image7 { position: absolute; top: 40px; left: 48px; width: 224px; height: 224px; }
+
+#coaching1 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+#coaching1 #carousel1 { position: absolute; top: 232px; left: 0px; width: 320px; height: 250px; }
+#coaching1 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#coaching2 #image1 { position: absolute; top: 72px; left: 0px; width: 320px; height: 240px; }
+
+#coaching2 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#coaching2 #image6 { position: absolute; top: 16px; left: 112px; width: 96px; height: 8px; }
+
+#coaching2 #image2 { position: absolute; top: 336px; left: 88px; width: 184px; height: 24px; }
+
+#coaching2 #image4 { position: absolute; top: 376px; left: 88px; width: 192px; height: 24px; }
+
+#coaching2 #image5 { position: absolute; top: 416px; left: 88px; width: 192px; height: 24px; }
+
+#coaching2 #image7 { position: absolute; top: 336px; left: 56px; width: 24px; height: 24px; }
+
+#coaching2 #image10 { position: absolute; top: 376px; left: 56px; width: 24px; height: 24px; }
+#coaching2 #image11 { position: absolute; top: 416px; left: 56px; width: 24px; height: 24px; }
+
+#problem1 #html1 { position: absolute; top: 48px; left: 0px; width: 320px; height: 144px; }
+#problem1 #image4 { position: absolute; top: 232px; left: 8px; width: 296px; height: 200px; }
+
+#problem1 #image5 { position: absolute; top: 440px; left: 72px; width: 168px; height: 48px; }
+
+#problem1 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#problem1 #image1 { position: absolute; top: 16px; left: 112px; width: 96px; height: 16px; }
+
+#problem2 #html1 { position: absolute; top: 48px; left: 0px; width: 320px; height: 144px; }
+
+#problem2 #image5 { position: absolute; top: 432px; left: 72px; width: 168px; height: 40px; }
+
+#problem2 #image4 { position: absolute; top: 232px; left: 8px; width: 296px; height: 200px; }
+
+#problem2 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#problem2 #image7 { position: absolute; top: 16px; left: 104px; width: 96px; height: 16px; }
+
+#problem3 #image5 { position: absolute; top: 440px; left: 72px; width: 168px; height: 40px; }
+#problem3 #image4 { position: absolute; top: 232px; left: 8px; width: 296px; height: 200px; }
+#problem3 #html1 { position: absolute; top: 48px; left: 0px; width: 320px; height: 144px; }
+
+#problem3 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+#problem3 #image7 { position: absolute; top: 16px; left: 104px; width: 120px; height: 16px; }
+
+#problem4 #html1 { position: absolute; top: 48px; left: 0px; width: 320px; height: 144px; }
+
+#problem4 #image5 { position: absolute; top: 440px; left: 72px; width: 168px; height: 40px; }
+#problem4 #image4 { position: absolute; top: 224px; left: 8px; width: 296px; height: 200px; }
+#problem4 #image7 { position: absolute; top: 8px; left: 104px; width: 120px; height: 32px; }
+#problem4 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#problem5 #html1 { position: absolute; top: 48px; left: 0px; width: 320px; height: 144px; }
+
+#problem5 #image5 { position: absolute; top: 440px; left: 72px; width: 168px; height: 40px; }
+
+#problem5 #image4 { position: absolute; top: 224px; left: 8px; width: 296px; height: 200px; }
+
+#problem5 #image7 { position: absolute; top: 16px; left: 128px; width: 72px; height: 16px; }
+
+#problem5 #image1 { position: absolute; top: 16px; left: 128px; width: 72px; height: 16px; }
+
+#problem5 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#learning1 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#learning1 #image2 { position: absolute; top: 216px; left: 56px; width: 208px; height: 40px; }
+
+#learning1 #html1 { position: absolute; top: 392px; left: 0px; width: 320px; height: 112px; }
+
+#learning1 #image4 { position: absolute; top: 280px; left: 56px; width: 208px; height: 40px; }
+
+#learning1 #image5 { position: absolute; top: 344px; left: 56px; width: 208px; height: 40px; }
+
+#learning1 #image6 { position: absolute; top: 56px; left: 80px; width: 160px; height: 144px; }
+
+#learning1 #image7 { position: absolute; top: 16px; left: 112px; width: 96px; height: 16px; }
+#learning1 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#learning2 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#learning2 #image2 { position: absolute; top: 216px; left: 56px; width: 208px; height: 40px; }
+
+#learning2 #image4 { position: absolute; top: 280px; left: 56px; width: 208px; height: 40px; }
+
+#learning2 #image5 { position: absolute; top: 344px; left: 56px; width: 208px; height: 40px; }
+#learning2 #html1 { position: absolute; top: 392px; left: 0px; width: 320px; height: 112px; }
+
+#learning2 #image7 { position: absolute; top: 16px; left: 112px; width: 96px; height: 16px; }
+
+#learning2 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#learning2 #image6 { position: absolute; top: 56px; left: 80px; width: 160px; height: 144px; }
+
+#learning3 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#learning3 #image2 { position: absolute; top: 216px; left: 56px; width: 208px; height: 40px; }
+#learning3 #image4 { position: absolute; top: 280px; left: 56px; width: 208px; height: 40px; }
+#learning3 #image5 { position: absolute; top: 344px; left: 56px; width: 208px; height: 40px; }
+#learning3 #image7 { position: absolute; top: 16px; left: 104px; width: 120px; height: 16px; }
+
+#learning3 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#learning3 #image6 { position: absolute; top: 56px; left: 80px; width: 160px; height: 144px; }
+
+#learning4 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#learning4 #image2 { position: absolute; top: 216px; left: 56px; width: 208px; height: 40px; }
+
+#learning4 #html1 { position: absolute; top: 392px; left: 0px; width: 320px; height: 112px; }
+
+#learning4 #image4 { position: absolute; top: 280px; left: 56px; width: 208px; height: 40px; }
+
+#learning4 #image5 { position: absolute; top: 344px; left: 56px; width: 208px; height: 40px; }
+#learning4 #image7 { position: absolute; top: 8px; left: 104px; width: 120px; height: 32px; }
+
+#learning4 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#learning4 #image6 { position: absolute; top: 56px; left: 80px; width: 160px; height: 144px; }
+
+#learning5 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#learning5 #image2 { position: absolute; top: 216px; left: 56px; width: 208px; height: 40px; }
+
+#learning5 #html1 { position: absolute; top: 392px; left: 0px; width: 320px; height: 112px; }
+
+#learning5 #image4 { position: absolute; top: 280px; left: 56px; width: 208px; height: 40px; }
+
+#learning5 #image5 { position: absolute; top: 344px; left: 56px; width: 208px; height: 40px; }
+#learning5 #image7 { position: absolute; top: 16px; left: 128px; width: 72px; height: 16px; }
+
+#learning5 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#learning5 #image6 { position: absolute; top: 56px; left: 80px; width: 160px; height: 144px; }
+
+#compre1 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+#compre1 #image2 { position: absolute; top: 144px; left: 104px; width: 104px; height: 40px; }
+#compre1 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#compre1 #image5 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#compre2 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+#compre2 #image2 { position: absolute; top: 136px; left: 112px; width: 104px; height: 40px; }
+#compre2 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#compre3 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+#compre3 #image2 { position: absolute; top: 392px; left: 112px; width: 104px; height: 40px; }
+#compre3 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#compre4 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+#compre4 #image2 { position: absolute; top: 392px; left: 112px; width: 104px; height: 40px; }
+
+#compre4 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#compre5 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+#compre5 #image2 { position: absolute; top: 392px; left: 112px; width: 104px; height: 40px; }
+
+#compre5 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#scaf1 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#scaf1 #image2 { position: absolute; top: 56px; left: 40px; width: 107px; height: 96px; }
+#scaf1 #image4 { position: absolute; top: 16px; left: 112px; width: 96px; height: 16px; }
+
+#scaf1 #image5 { position: absolute; top: 264px; left: 40px; width: 240px; height: 216px; }
+
+#scaf1 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#scaf1 #image10 { position: absolute; top: 56px; left: 168px; width: 107px; height: 96px; }
+
+#scaf1 #image8 { position: absolute; top: 160px; left: 40px; width: 107px; height: 96px; }
+
+#scaf1 #image6 { position: absolute; top: 160px; left: 168px; width: 107px; height: 96px; }
+
+#scaf2 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#scaf2 #image2 { position: absolute; top: 56px; left: 40px; width: 107px; height: 96px; }
+#scaf2 #image4 { position: absolute; top: 56px; left: 168px; width: 107px; height: 96px; }
+
+#scaf2 #image6 { position: absolute; top: 160px; left: 168px; width: 107px; height: 96px; }
+
+#scaf2 #image5 { position: absolute; top: 160px; left: 40px; width: 107px; height: 96px; }
+
+#scaf2 #image8 { position: absolute; top: 160px; left: 40px; width: 107px; height: 96px; }
+
+#scaf2 #image9 { position: absolute; top: 264px; left: 40px; width: 240px; height: 216px; }
+
+#scaf2 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#scaf2 #image7 { position: absolute; top: 16px; left: 112px; width: 96px; height: 16px; }
+
+#scaf3 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+#scaf3 #image2 { position: absolute; top: 56px; left: 40px; width: 107px; height: 96px; }
+
+#scaf3 #image4 { position: absolute; top: 56px; left: 168px; width: 107px; height: 96px; }
+
+#scaf3 #image5 { position: absolute; top: 160px; left: 40px; width: 107px; height: 96px; }
+
+#scaf3 #image6 { position: absolute; top: 160px; left: 168px; width: 107px; height: 96px; }
+
+#scaf3 #image7 { position: absolute; top: 56px; left: 168px; width: 107px; height: 96px; }
+
+#scaf3 #image8 { position: absolute; top: 160px; left: 40px; width: 107px; height: 96px; }
+
+#scaf3 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#scaf3 #image9 { position: absolute; top: 264px; left: 40px; width: 240px; height: 216px; }
+
+#scaf3 #image10 { position: absolute; top: 16px; left: 104px; width: 120px; height: 16px; }
+
+#scaf4 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+#scaf4 #image2 { position: absolute; top: 56px; left: 40px; width: 107px; height: 96px; }
+
+#scaf4 #image4 { position: absolute; top: 56px; left: 168px; width: 107px; height: 96px; }
+
+#scaf4 #image5 { position: absolute; top: 160px; left: 40px; width: 107px; height: 96px; }
+
+#scaf4 #image6 { position: absolute; top: 160px; left: 168px; width: 107px; height: 96px; }
+
+#scaf4 #image7 { position: absolute; top: 56px; left: 168px; width: 107px; height: 96px; }
+
+#scaf4 #image8 { position: absolute; top: 160px; left: 40px; width: 107px; height: 96px; }
+
+#scaf4 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#scaf4 #image9 { position: absolute; top: 264px; left: 40px; width: 240px; height: 216px; }
+
+#scaf4 #image10 { position: absolute; top: 8px; left: 104px; width: 120px; height: 32px; }
+
+#scaf5 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+#scaf5 #image2 { position: absolute; top: 56px; left: 40px; width: 107px; height: 96px; }
+
+#scaf5 #image4 { position: absolute; top: 56px; left: 168px; width: 107px; height: 96px; }
+
+#scaf5 #image5 { position: absolute; top: 160px; left: 40px; width: 107px; height: 96px; }
+
+#scaf5 #image6 { position: absolute; top: 160px; left: 168px; width: 107px; height: 96px; }
+
+#scaf5 #image7 { position: absolute; top: 56px; left: 168px; width: 107px; height: 96px; }
+
+#scaf5 #image8 { position: absolute; top: 160px; left: 40px; width: 107px; height: 96px; }
+
+#scaf5 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#scaf5 #image9 { position: absolute; top: 264px; left: 40px; width: 240px; height: 216px; }
+
+#scaf5 #image10 { position: absolute; top: 16px; left: 128px; width: 72px; height: 16px; }
+
+#task1 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#task1 #label1 { position: absolute; top: 104px; left: 16px; width: 280px; height: 72px; }
+
+#task1 #label2 { position: absolute; top: 248px; left: 16px; width: 280px; height: 96px; }
+
+#task1 #labelInput2 { position: absolute; top: 312px; left: 16px; width: 280px; height: 48px; }
+
+#task1 #submit1 { position: absolute; top: 384px; left: 120px; width: 72px; height: 32px; }
+
+#task1 #labelInput1 { position: absolute; top: 168px; left: 16px; width: 280px; height: 48px; }
+
+#task1 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#task1 #image4 { position: absolute; top: 16px; left: 112px; width: 96px; height: 16px; }
+
+#task1 #image2 { position: absolute; top: 8px; left: 264px; width: 32px; height: 24px; }
+
+#task2 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+#task2 #label1 { position: absolute; top: 104px; left: 16px; width: 280px; height: 72px; }
+
+#task2 #label2 { position: absolute; top: 248px; left: 16px; width: 280px; height: 96px; }
+
+#task2 #labelInput1 { position: absolute; top: 312px; left: 16px; width: 280px; height: 72px; }
+
+#task2 #labelInput2 { position: absolute; top: 160px; left: 16px; width: 280px; height: 48px; }
+
+#task2 #submit2 { position: absolute; top: 408px; left: 120px; width: 72px; height: 32px; }
+#task2 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#task2 #image7 { position: absolute; top: 16px; left: 112px; width: 96px; height: 16px; }
+#task2 #image2 { position: absolute; top: 8px; left: 264px; width: 32px; height: 24px; }
+
+#task3 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+#task3 #label1 { position: absolute; top: 104px; left: 16px; width: 280px; height: 72px; }
+
+#task3 #label2 { position: absolute; top: 248px; left: 16px; width: 280px; height: 96px; }
+
+#task3 #labelInput1 { position: absolute; top: 312px; left: 16px; width: 280px; height: 72px; }
+
+#task3 #labelInput2 { position: absolute; top: 160px; left: 16px; width: 280px; height: 48px; }
+
+#task3 #submit3 { position: absolute; top: 400px; left: 120px; width: 72px; height: 32px; }
+#task3 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#task3 #image7 { position: absolute; top: 16px; left: 104px; width: 120px; height: 16px; }
+#task3 #image2 { position: absolute; top: 8px; left: 264px; width: 32px; height: 24px; }
+
+#task4 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+#task4 #label1 { position: absolute; top: 104px; left: 16px; width: 280px; height: 72px; }
+
+#task4 #label2 { position: absolute; top: 248px; left: 16px; width: 280px; height: 96px; }
+
+#task4 #labelInput1 { position: absolute; top: 312px; left: 16px; width: 280px; height: 72px; }
+
+#task4 #labelInput2 { position: absolute; top: 160px; left: 16px; width: 280px; height: 48px; }
+
+#task4 #submit4 { position: absolute; top: 408px; left: 120px; width: 72px; height: 32px; }
+#task4 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#task4 #image7 { position: absolute; top: 8px; left: 104px; width: 120px; height: 32px; }
+#task4 #image2 { position: absolute; top: 8px; left: 264px; width: 32px; height: 24px; }
+
+#task5 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#task5 #label1 { position: absolute; top: 104px; left: 16px; width: 280px; height: 72px; }
+
+#task5 #label2 { position: absolute; top: 248px; left: 16px; width: 280px; height: 96px; }
+
+#task5 #labelInput1 { position: absolute; top: 312px; left: 16px; width: 280px; height: 72px; }
+
+#task5 #labelInput2 { position: absolute; top: 160px; left: 16px; width: 280px; height: 48px; }
+
+#task5 #submit5 { position: absolute; top: 416px; left: 120px; width: 72px; height: 32px; }
+
+#task5 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#task5 #image2 { position: absolute; top: 16px; left: 128px; width: 72px; height: 16px; }
+#task5 #image4 { position: absolute; top: 8px; left: 264px; width: 32px; height: 24px; }
+
+#taskbot11 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#taskbot11 #image4 { position: absolute; top: 80px; left: 8px; width: 304px; height: 216px; }
+
+#taskbot11 #image2 { position: absolute; top: 8px; left: 264px; width: 32px; height: 24px; }
+
+#taskbot11 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#taskbot11 #image6 { position: absolute; top: 408px; left: 240px; width: 64px; height: 48px; }
+
+#taskbot11 #image7 { position: absolute; top: 16px; left: 112px; width: 104px; height: 16px; }
+
+#taskbot12 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#taskbot12 #image4 { position: absolute; top: 80px; left: 8px; width: 304px; height: 232px; }
+
+#taskbot12 #image2 { position: absolute; top: 8px; left: 264px; width: 32px; height: 24px; }
+
+#taskbot12 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#taskbot12 #image6 { position: absolute; top: 408px; left: 240px; width: 64px; height: 48px; }
+
+#taskbot12 #image7 { position: absolute; top: 16px; left: 112px; width: 104px; height: 16px; }
+
+#taskbot21 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#taskbot21 #image4 { position: absolute; top: 64px; left: 24px; width: 272px; height: 328px; }
+
+#taskbot21 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#taskbot21 #image6 { position: absolute; top: 408px; left: 240px; width: 64px; height: 48px; }
+
+#taskbot21 #image2 { position: absolute; top: 8px; left: 264px; width: 32px; height: 24px; }
+
+#taskbot21 #image7 { position: absolute; top: 16px; left: 104px; width: 104px; height: 16px; }
+
+#taskbot22 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#taskbot22 #image4 { position: absolute; top: 64px; left: 24px; width: 272px; height: 320px; }
+
+#taskbot22 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#taskbot22 #image6 { position: absolute; top: 408px; left: 240px; width: 64px; height: 48px; }
+
+#taskbot22 #image2 { position: absolute; top: 8px; left: 264px; width: 32px; height: 24px; }
+
+#taskbot22 #image7 { position: absolute; top: 16px; left: 104px; width: 104px; height: 16px; }
+
+#taskbot23 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#taskbot23 #image4 { position: absolute; top: 56px; left: 24px; width: 272px; height: 352px; }
+
+#taskbot23 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#taskbot23 #image6 { position: absolute; top: 408px; left: 240px; width: 64px; height: 48px; }
+
+#taskbot23 #image2 { position: absolute; top: 8px; left: 264px; width: 32px; height: 24px; }
+
+#taskbot23 #image7 { position: absolute; top: 16px; left: 104px; width: 104px; height: 16px; }
+
+#taskbot24 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#taskbot24 #image4 { position: absolute; top: 72px; left: 24px; width: 272px; height: 328px; }
+
+#taskbot24 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#taskbot24 #image6 { position: absolute; top: 408px; left: 240px; width: 64px; height: 48px; }
+
+#taskbot24 #image2 { position: absolute; top: 8px; left: 264px; width: 32px; height: 24px; }
+
+#taskbot24 #image7 { position: absolute; top: 16px; left: 104px; width: 104px; height: 16px; }
+
+#taskQ1 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#taskQ1 #iframe3 { position: absolute; top: 40px; left: 0px; width: 320px; height: 440px; }
+
+#taskQ1 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#taskQ1 #image4 { position: absolute; top: 8px; left: 272px; width: 32px; height: 24px; }
+
+#taskQ1 #image7 { position: absolute; top: 16px; left: 112px; width: 104px; height: 16px; }
+
+#taskQ2 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#taskQ2 #iframe3 { position: absolute; top: 40px; left: 0px; width: 320px; height: 440px; }
+
+#taskQ2 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#taskQ2 #image4 { position: absolute; top: 8px; left: 264px; width: 32px; height: 24px; }
+
+#taskQ2 #image7 { position: absolute; top: 16px; left: 104px; width: 104px; height: 16px; }
+
+#taskQ3 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#taskQ3 #iframe3 { position: absolute; top: 40px; left: 0px; width: 320px; height: 440px; }
+
+#taskQ3 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#taskQ3 #image4 { position: absolute; top: 8px; left: 264px; width: 32px; height: 24px; }
+
+#taskQ3 #image5 { position: absolute; top: 16px; left: 104px; width: 120px; height: 16px; }
+
+#taskQ4 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#taskQ4 #iframe3 { position: absolute; top: 40px; left: 0px; width: 320px; height: 440px; }
+
+#taskQ4 #image5 { position: absolute; top: 16px; left: 104px; width: 120px; height: 16px; }
+#taskQ4 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#taskQ4 #image4 { position: absolute; top: 8px; left: 264px; width: 32px; height: 24px; }
+
+#taskQ5 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#taskQ5 #image2 { position: absolute; top: 8px; left: 264px; width: 32px; height: 24px; }
+
+#taskQ5 #iframe3 { position: absolute; top: 40px; left: 0px; width: 320px; height: 440px; }
+
+#taskQ5 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#taskQ5 #image7 { position: absolute; top: 16px; left: 120px; width: 80px; height: 16px; }
+
+#taskbot31 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#taskbot31 #image4 { position: absolute; top: 72px; left: 0px; width: 320px; height: 280px; }
+
+#taskbot31 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#taskbot31 #image6 { position: absolute; top: 408px; left: 240px; width: 64px; height: 48px; }
+
+#taskbot31 #image2 { position: absolute; top: 8px; left: 264px; width: 32px; height: 24px; }
+
+#taskbot31 #image5 { position: absolute; top: 16px; left: 104px; width: 120px; height: 16px; }
+
+#taskbot32 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#taskbot32 #image4 { position: absolute; top: 72px; left: 0px; width: 320px; height: 256px; }
+
+#taskbot32 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#taskbot32 #image6 { position: absolute; top: 408px; left: 240px; width: 64px; height: 48px; }
+
+#taskbot32 #image2 { position: absolute; top: 8px; left: 264px; width: 32px; height: 24px; }
+
+#taskbot32 #image5 { position: absolute; top: 16px; left: 104px; width: 120px; height: 16px; }
+
+#taskbot33 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#taskbot33 #image4 { position: absolute; top: 72px; left: 0px; width: 320px; height: 240px; }
+
+#taskbot33 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#taskbot33 #image6 { position: absolute; top: 408px; left: 240px; width: 64px; height: 48px; }
+
+#taskbot33 #image2 { position: absolute; top: 8px; left: 264px; width: 32px; height: 24px; }
+
+#taskbot33 #image5 { position: absolute; top: 16px; left: 104px; width: 120px; height: 16px; }
+
+#taskbot34 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#taskbot34 #image4 { position: absolute; top: 72px; left: 0px; width: 320px; height: 272px; }
+
+#taskbot34 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#taskbot34 #image6 { position: absolute; top: 408px; left: 240px; width: 64px; height: 48px; }
+
+#taskbot34 #image2 { position: absolute; top: 8px; left: 264px; width: 32px; height: 24px; }
+
+#taskbot34 #image5 { position: absolute; top: 16px; left: 104px; width: 120px; height: 16px; }
+
+#taskbot41 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#taskbot41 #image4 { position: absolute; top: 80px; left: 16px; width: 288px; height: 200px; }
+
+#taskbot41 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#taskbot41 #image6 { position: absolute; top: 408px; left: 240px; width: 64px; height: 48px; }
+
+#taskbot41 #image2 { position: absolute; top: 8px; left: 264px; width: 32px; height: 24px; }
+
+#taskbot41 #image5 { position: absolute; top: 16px; left: 104px; width: 120px; height: 16px; }
+
+#taskbot42 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#taskbot42 #image4 { position: absolute; top: 72px; left: 24px; width: 272px; height: 208px; }
+
+#taskbot42 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#taskbot42 #image6 { position: absolute; top: 408px; left: 240px; width: 64px; height: 48px; }
+
+#taskbot42 #image2 { position: absolute; top: 8px; left: 264px; width: 32px; height: 24px; }
+
+#taskbot42 #image5 { position: absolute; top: 16px; left: 104px; width: 120px; height: 16px; }
+
+#taskbot43 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#taskbot43 #image4 { position: absolute; top: 72px; left: 24px; width: 272px; height: 224px; }
+
+#taskbot43 #image6 { position: absolute; top: 408px; left: 240px; width: 64px; height: 48px; }
+
+#taskbot43 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#taskbot43 #image2 { position: absolute; top: 8px; left: 264px; width: 32px; height: 24px; }
+
+#taskbot43 #image5 { position: absolute; top: 16px; left: 104px; width: 120px; height: 16px; }
+
+#taskbot44 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#taskbot44 #image4 { position: absolute; top: 72px; left: 24px; width: 272px; height: 208px; }
+
+#taskbot44 #image6 { position: absolute; top: 408px; left: 240px; width: 64px; height: 48px; }
+
+#taskbot44 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#taskbot44 #image2 { position: absolute; top: 8px; left: 264px; width: 32px; height: 24px; }
+
+#taskbot44 #image5 { position: absolute; top: 16px; left: 104px; width: 120px; height: 16px; }
+
+#taskbot51 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#taskbot51 #image4 { position: absolute; top: 96px; left: 32px; width: 256px; height: 248px; }
+
+#taskbot51 #image6 { position: absolute; top: 408px; left: 240px; width: 64px; height: 48px; }
+
+#taskbot51 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#taskbot51 #image2 { position: absolute; top: 8px; left: 264px; width: 32px; height: 24px; }
+
+#taskbot51 #image7 { position: absolute; top: 16px; left: 120px; width: 80px; height: 16px; }
+
+#taskbot52 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#taskbot52 #image4 { position: absolute; top: 96px; left: 24px; width: 272px; height: 256px; }
+
+#taskbot52 #image6 { position: absolute; top: 408px; left: 240px; width: 64px; height: 48px; }
+
+#taskbot52 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#taskbot52 #image2 { position: absolute; top: 8px; left: 264px; width: 32px; height: 24px; }
+
+#taskbot52 #image7 { position: absolute; top: 16px; left: 120px; width: 80px; height: 16px; }
+
+#taskbot53 #image1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#taskbot53 #image4 { position: absolute; top: 88px; left: 16px; width: 288px; height: 248px; }
+
+#taskbot53 #image6 { position: absolute; top: 408px; left: 240px; width: 64px; height: 48px; }
+
+#taskbot53 #image3 { position: absolute; top: 16px; left: 16px; width: 20px; height: 16px; }
+
+#taskbot53 #image2 { position: absolute; top: 8px; left: 264px; width: 32px; height: 24px; }
+
+#taskbot53 #image7 { position: absolute; top: 16px; left: 120px; width: 80px; height: 16px; }
+
+#dialogscafproce #html1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#dialogscafproce #imgpush2 { position: absolute; top: 8px; left: 280px; width: 32px; height: 32px; }
+
+#dialogscafstretegic #html1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#dialogscafstretegic #imgpush2 { position: absolute; top: 8px; left: 280px; width: 32px; height: 32px; }
+
+#dialogscafmeta #html1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#dialogscafmeta #imgpush2 { position: absolute; top: 8px; left: 280px; width: 32px; height: 32px; }
+
+#dialogconcep1 #html1 { position: absolute; top: 0px; left: 0px; width: 320px; height: 480px; }
+
+#dialogconcep1 #imgpush2 { position: absolute; top: 8px; left: 280px; width: 32px; height: 32px; }
+
+#dialogconcep2 #imgpush2 { position: absolute; top: 8px; left: 280px; width: 32px; height: 32px; }
+
+#dialogconcep3 #imgpush2 { position: absolute; top: 8px; left: 280px; width: 32px; height: 32px; }
+
+#dialogconcep4 #imgpush2 { position: absolute; top: 8px; left: 280px; width: 32px; height: 32px; }
+
+#dialogconcep5 #imgpush2 { position: absolute; top: 8px; left: 280px; width: 32px; height: 32px; }
+
+#dialoghandout1 #html1 { position: absolute; top: 48px; left: 0px; width: 320px; height: 432px; }
+
+#dialoghandout1 #imgpush2 { position: absolute; top: 8px; left: 280px; width: 32px; height: 32px; }
+
+#dialoghandout2 #html1 { position: absolute; top: 40px; left: 0px; width: 320px; height: 432px; }
+
+#dialoghandout2 #imgpush2 { position: absolute; top: 8px; left: 280px; width: 32px; height: 32px; }
+
+#dialoghandout3 #html1 { position: absolute; top: 48px; left: 0px; width: 320px; height: 432px; }
+
+#dialoghandout3 #imgpush2 { position: absolute; top: 8px; left: 280px; width: 32px; height: 32px; }
+
+#dialoghandout4 #html1 { position: absolute; top: 48px; left: 0px; width: 320px; height: 432px; }
+
+#dialoghandout4 #imgpush2 { position: absolute; top: 8px; left: 280px; width: 32px; height: 32px; }
+
+#dialoghandout5 #html1 { position: absolute; top: 48px; left: 0px; width: 320px; height: 432px; }
+
+#dialoghandout5 #imgpush2 { position: absolute; top: 8px; left: 280px; width: 32px; height: 32px; }
+
+#dialogtask1 .modal-content { font-family: "Times New Roman", Times, serif; }
+#dialogtask1 #image2 { position: absolute; top: 72px; left: 0px; width: 320px; height: 232px; }
+
+#dialogtask1 #imgpush2 { position: absolute; top: 8px; left: 280px; width: 32px; height: 32px; }
+
+#dialogtask1 #image1 { position: absolute; top: 16px; left: 112px; width: 96px; height: 16px; }
+
+#dialogtask2 #imgpush2 { position: absolute; top: 8px; left: 280px; width: 32px; height: 32px; }
+#dialogtask2 #image7 { position: absolute; top: 16px; left: 112px; width: 96px; height: 16px; }
+#dialogtask2 #image4 { position: absolute; top: 112px; left: 8px; width: 304px; height: 240px; }
+
+#dialogtask3 #image7 { position: absolute; top: 16px; left: 104px; width: 120px; height: 16px; }
+#dialogtask3 #imgpush2 { position: absolute; top: 8px; left: 280px; width: 32px; height: 32px; }
+#dialogtask3 #image4 { position: absolute; top: 104px; left: 8px; width: 304px; height: 256px; }
+
+#dialogtask4 #image7 { position: absolute; top: 8px; left: 104px; width: 120px; height: 32px; }
+#dialogtask4 #imgpush2 { position: absolute; top: 8px; left: 280px; width: 32px; height: 32px; }
+#dialogtask4 #image4 { position: absolute; top: 64px; left: 8px; width: 304px; height: 248px; }
+
+#Ansbot11 #iframe1 { position: absolute; top: 48px; left: 0px; width: 320px; height: 432px; }
+
+#Ansbot11 #imgpush2 { position: absolute; top: 8px; left: 280px; width: 32px; height: 32px; }
+
+#Ansbot12 #iframe1 { position: absolute; top: 48px; left: 0px; width: 320px; height: 432px; }
+
+#Ansbot12 #imgpush2 { position: absolute; top: 8px; left: 280px; width: 32px; height: 32px; }
+
+#dialogtask5 #image1 { position: absolute; top: 16px; left: 128px; width: 72px; height: 16px; }
+#dialogtask5 #imgpush2 { position: absolute; top: 8px; left: 280px; width: 32px; height: 32px; }
+#dialogtask5 #image4 { position: absolute; top: 80px; left: 8px; width: 304px; height: 256px; }
