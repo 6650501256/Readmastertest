@@ -5411,7 +5411,7 @@ const coaching2 = {
           app: this.$root,
           image1: {
             name: "image1",
-            url: "images/475255349_9527840030573972_3745284200734011761_n.png",
+            url: "475255349_9527840030573972_3745284200734011761_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
