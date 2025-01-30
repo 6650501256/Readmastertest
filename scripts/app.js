@@ -13099,7 +13099,7 @@ const task2 = {
           app: this.$root,
           image1: {
             name: "image1",
-            url: "images/474952621_591456130353917_6115518564765359487_n.png",
+            url: "474952621_591456130353917_6115518564765359487_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -13864,7 +13864,7 @@ const task3 = {
           app: this.$root,
           image1: {
             name: "image1",
-            url: "images/474952621_591456130353917_6115518564765359487_n.png",
+            url: "474952621_591456130353917_6115518564765359487_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -14629,7 +14629,7 @@ const task4 = {
           app: this.$root,
           image1: {
             name: "image1",
-            url: "images/474952621_591456130353917_6115518564765359487_n.png",
+            url: "474952621_591456130353917_6115518564765359487_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -15394,7 +15394,7 @@ const task5 = {
           app: this.$root,
           image1: {
             name: "image1",
-            url: "images/474952621_591456130353917_6115518564765359487_n.png",
+            url: "474952621_591456130353917_6115518564765359487_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -16161,7 +16161,7 @@ const taskbot11 = {
           app: this.$root,
           image1: {
             name: "image1",
-            url: "images/474952621_591456130353917_6115518564765359487_n.png",
+            url: "474952621_591456130353917_6115518564765359487_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -16471,7 +16471,7 @@ const taskbot12 = {
           app: this.$root,
           image1: {
             name: "image1",
-            url: "images/474952621_591456130353917_6115518564765359487_n.png",
+            url: "474952621_591456130353917_6115518564765359487_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -16781,7 +16781,7 @@ const taskbot21 = {
           app: this.$root,
           image1: {
             name: "image1",
-            url: "images/474952621_591456130353917_6115518564765359487_n.png",
+            url: "474952621_591456130353917_6115518564765359487_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -17091,7 +17091,7 @@ const taskbot22 = {
           app: this.$root,
           image1: {
             name: "image1",
-            url: "images/474952621_591456130353917_6115518564765359487_n.png",
+            url: "474952621_591456130353917_6115518564765359487_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -17401,7 +17401,7 @@ const taskbot23 = {
           app: this.$root,
           image1: {
             name: "image1",
-            url: "images/474952621_591456130353917_6115518564765359487_n.png",
+            url: "474952621_591456130353917_6115518564765359487_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -17711,7 +17711,7 @@ const taskbot24 = {
           app: this.$root,
           image1: {
             name: "image1",
-            url: "images/474952621_591456130353917_6115518564765359487_n.png",
+            url: "474952621_591456130353917_6115518564765359487_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -18021,7 +18021,7 @@ const taskQ1 = {
           app: this.$root,
           image1: {
             name: "image1",
-            url: "images/474952621_591456130353917_6115518564765359487_n.png",
+            url: "474952621_591456130353917_6115518564765359487_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -18286,7 +18286,7 @@ const taskQ2 = {
           app: this.$root,
           image1: {
             name: "image1",
-            url: "images/474952621_591456130353917_6115518564765359487_n.png",
+            url: "474952621_591456130353917_6115518564765359487_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -18551,7 +18551,7 @@ const taskQ3 = {
           app: this.$root,
           image1: {
             name: "image1",
-            url: "images/474952621_591456130353917_6115518564765359487_n.png",
+            url: "474952621_591456130353917_6115518564765359487_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -18816,7 +18816,7 @@ const taskQ4 = {
           app: this.$root,
           image1: {
             name: "image1",
-            url: "images/474952621_591456130353917_6115518564765359487_n.png",
+            url: "474952621_591456130353917_6115518564765359487_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -19081,7 +19081,7 @@ const taskQ5 = {
           app: this.$root,
           image1: {
             name: "image1",
-            url: "images/474952621_591456130353917_6115518564765359487_n.png",
+            url: "474952621_591456130353917_6115518564765359487_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -19346,7 +19346,7 @@ const taskbot31 = {
           app: this.$root,
           image1: {
             name: "image1",
-            url: "images/474952621_591456130353917_6115518564765359487_n.png",
+            url: "474952621_591456130353917_6115518564765359487_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -19656,7 +19656,7 @@ const taskbot32 = {
           app: this.$root,
           image1: {
             name: "image1",
-            url: "images/474952621_591456130353917_6115518564765359487_n.png",
+            url: "474952621_591456130353917_6115518564765359487_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -19966,7 +19966,7 @@ const taskbot33 = {
           app: this.$root,
           image1: {
             name: "image1",
-            url: "images/474952621_591456130353917_6115518564765359487_n.png",
+            url: "474952621_591456130353917_6115518564765359487_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -20276,7 +20276,7 @@ const taskbot34 = {
           app: this.$root,
           image1: {
             name: "image1",
-            url: "images/474952621_591456130353917_6115518564765359487_n.png",
+            url: "474952621_591456130353917_6115518564765359487_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -20586,7 +20586,7 @@ const taskbot41 = {
           app: this.$root,
           image1: {
             name: "image1",
-            url: "images/474952621_591456130353917_6115518564765359487_n.png",
+            url: "474952621_591456130353917_6115518564765359487_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -20896,7 +20896,7 @@ const taskbot42 = {
           app: this.$root,
           image1: {
             name: "image1",
-            url: "images/474952621_591456130353917_6115518564765359487_n.png",
+            url: "474952621_591456130353917_6115518564765359487_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -21206,7 +21206,7 @@ const taskbot43 = {
           app: this.$root,
           image1: {
             name: "image1",
-            url: "images/474952621_591456130353917_6115518564765359487_n.png",
+            url: "474952621_591456130353917_6115518564765359487_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -21516,7 +21516,7 @@ const taskbot44 = {
           app: this.$root,
           image1: {
             name: "image1",
-            url: "images/474952621_591456130353917_6115518564765359487_n.png",
+            url: "474952621_591456130353917_6115518564765359487_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -21826,7 +21826,7 @@ const taskbot51 = {
           app: this.$root,
           image1: {
             name: "image1",
-            url: "images/474952621_591456130353917_6115518564765359487_n.png",
+            url: "474952621_591456130353917_6115518564765359487_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -22136,7 +22136,7 @@ const taskbot52 = {
           app: this.$root,
           image1: {
             name: "image1",
-            url: "images/474952621_591456130353917_6115518564765359487_n.png",
+            url: "474952621_591456130353917_6115518564765359487_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -22446,7 +22446,7 @@ const taskbot53 = {
           app: this.$root,
           image1: {
             name: "image1",
-            url: "images/474952621_591456130353917_6115518564765359487_n.png",
+            url: "474952621_591456130353917_6115518564765359487_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
