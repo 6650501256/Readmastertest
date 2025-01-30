@@ -3378,7 +3378,7 @@ app.hideDialogs();
           },
           image4: {
             name: "image4",
-            url: "images/462562307_603648668915134_2107280002560587655_n.jpg",
+            url: "462562307_603648668915134_2107280002560587655_n.jpg",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -4506,7 +4506,7 @@ app.showView('problem2');
 
           image10: {
             name: "image10",
-            url: "images/466832041_1017671803525576_4378390615869316467_n.png",
+            url: "466832041_1017671803525576_4378390615869316467_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -4539,7 +4539,7 @@ app.showView('problem3');
 
           image11: {
             name: "image11",
-            url: "images/467136290_899254962362920_2783300144135893031_n.png",
+            url: "467136290_899254962362920_2783300144135893031_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -4605,7 +4605,7 @@ app.showView('problem5');
 
           image2: {
             name: "image2",
-            url: "images/474854892_1955068261685715_2009290267501924134_n.png",
+            url: "474854892_1955068261685715_2009290267501924134_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -5801,7 +5801,7 @@ const problem1 = {
 
           image5: {
             name: "image5",
-            url: "images/467470411_2318354041853443_1420735777515935467_n.png",
+            url: "467470411_2318354041853443_1420735777515935467_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -12331,7 +12331,7 @@ const task1 = {
           app: this.$root,
           image1: {
             name: "image1",
-            url: "images/474952621_591456130353917_6115518564765359487_n.png",
+            url: "474952621_591456130353917_6115518564765359487_n.png",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
