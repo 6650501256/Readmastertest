@@ -7196,7 +7196,7 @@ const learning1 = {
           app: this.$root,
           image1: {
             name: "image1",
-            url: "images/474920997_1123148726019636_350891200216899090_n.jpg",
+            url: "474920997_1123148726019636_350891200216899090_n.jpg",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -7563,7 +7563,7 @@ const learning2 = {
           app: this.$root,
           image1: {
             name: "image1",
-            url: "images/474920997_1123148726019636_350891200216899090_n.jpg",
+            url: "474920997_1123148726019636_350891200216899090_n.jpg",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -7931,7 +7931,7 @@ const learning3 = {
           app: this.$root,
           image1: {
             name: "image1",
-            url: "images/474920997_1123148726019636_350891200216899090_n.jpg",
+            url: "474920997_1123148726019636_350891200216899090_n.jpg",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -8274,7 +8274,7 @@ const learning4 = {
           app: this.$root,
           image1: {
             name: "image1",
-            url: "images/474920997_1123148726019636_350891200216899090_n.jpg",
+            url: "474920997_1123148726019636_350891200216899090_n.jpg",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
@@ -8642,7 +8642,7 @@ const learning5 = {
           app: this.$root,
           image1: {
             name: "image1",
-            url: "images/474920997_1123148726019636_350891200216899090_n.jpg",
+            url: "474920997_1123148726019636_350891200216899090_n.jpg",
             classes: "",
             description: "",
             title: " Created with Unregistered DecSoft App Builder",
