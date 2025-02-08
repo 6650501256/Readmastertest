@@ -55,5 +55,18 @@
   <script src="scripts/applangs.js"></script>
   <script src="scripts/app.js"></script>
   <script src="cordova.js"></script>
+  <script>
+  function checkOrientation() {
+    if (window.matchMedia("(orientation: landscape)").matches) {
+      document.getElementById("landscape-warning").style.display = "flex";
+    } else {
+      document.getElementById("landscape-warning").style.display = "none";
+    }
+  }
+  window.addEventListener("resize", checkOrientation);
+  window.addEventListener("load", checkOrientation);
+</script>
+</body>
+</html>
  </body>
 </html>
